@@ -1,0 +1,43 @@
+.main-wrapper-forum {
+    display: flex;
+    width: 100%;  
+    height: 100vh;
+    gap: 10px;
+}
+.share-thoughts-container{
+    width: 40%;
+    background-color: aquamarine;
+    height: 100%;
+    
+}
+.shared-thoughts-container{
+    width: 60%;
+    background-color: aqua;
+    height: 100vh;
+    overflow-y: scroll;
+
+}
+.forum-cards{
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    
+
+}
+.forum-comment{
+    display: none;
+}
+.forum-comment-active{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    background: #FDFDFD;
+    box-shadow: 0px 5px 10px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px 0px;
+    width: 511px;
+    z-index: 1;
+    margin-top: 63px;
+    
+
+}

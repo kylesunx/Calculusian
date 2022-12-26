@@ -1,0 +1,50 @@
+.sidebar-wrapper{
+    position: fixed;
+    top: 0;
+    width: 210px;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+    background: white;
+    border-right: 1px solid #DADADA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 4px 0px 50px 10px rgba(0, 0, 0, 0.1);
+    
+    }
+    
+    .sidebar-list-wrapper-top{
+        height: 45vh;
+    }
+    .sidebar-list-wrapper-mid{
+        height: 45vh;
+    }
+    .sidebar-list-wrapper-m{
+        height: 10vh;
+    }
+    .sidebar-top-wrapper{
+        padding-top: 11px;
+    }
+    .sidebar-top-wrapper-list{
+        padding-top: 50px;
+    }
+    .top-list, .mid-list{
+        list-style: none;
+        
+    }
+    .top-list-item a, .mid-list-item a{
+        text-decoration: none;
+    }
+    .top-list-item, .mid-list-item{
+        padding-bottom: 10px;
+    }
+    .mid-list {
+        padding: 0px;
+    }
+    
+
+
+    
+    
